@@ -1,0 +1,330 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JK | Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container" id="navbar">
+            <a href="http://janudakk.byethost8.com/" class="logo">
+                <img src="./assets/images/featured/o.png" alt="Logo"width="80" height="80" alt="logo">
+         
+              </a>
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./index.html" class="list-link">
+                            <i class="fas fa-arrow-left"></i> Back
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link"></a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <div class="icon-box place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </div>
+
+                <div class="icon-box place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </div>
+
+                <div class="icon-box place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </div>
+
+                <a href="#" class="list-link screen-sm-hidden"></a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span></span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container">
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn icon-box" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+        <div class="btn form-close-btn icon-box place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </div>
+    </div>
+
+    <section class="blog-post section-header-offset">
+        <div class="blog-post-container container">
+            <div class="blog-post-data">
+                <h3 class="title blog-post-title">Event Registration and Attendance System</h3>
+                <div class="article-data">
+                    <span>Aug 6th 2022</span>
+                    <span class="article-data-spacer"></span>
+                    <span></span>
+                </div>
+                <img src="./assets/images/featured/e.png" alt="">
+            </div>
+
+            <div class="container">
+                <p>
+                    
+                
+                <p>
+                    <h1>An organization or business that needs an <span style="color: #ff7f50;">online or automated event registration and attendance system</span> can benefit from the <span style="color: #ff7f50;">Event Registration and Attendance System</span>, a straightforward <span style="color: #ff7f50;">PHP/MySQLi project</span>.</h1>
+
+                    <p>The <span style="color: #ff7f50;">admin side</span> and the <span style="color: #ff7f50;">registrar's side</span> of this system's user interface are both present. This system keeps track of numerous forthcoming events as well as their timetable, location, and other facts. When the current date matches the event schedule, the registration and attendance for the event are automatically made available to the registrar. The administrator must designate one or more registrar users to have access to the event in order to register attendees and manage attendance up until the administrator closes registration and attendance for the event. The method also produce.</p>
+                
+                    <h2>Creating an Event Registration and Attendance System in PHP:</h2>
+                
+                    <h3>Database Setup:</h3>
+                    <p>Create a MySQL database to store event and attendee information.</p>
+                
+                    <h3>Registration Form:</h3>
+                    <p>Create an HTML form to collect attendee information. Include fields like name, email, and event selection.</p>
+                
+                    <p>Set the form action attribute to the PHP script that will handle the form submission.</p>
+                
+                    <p>Use appropriate form validation techniques, such as checking for empty fields and validating email format, using JavaScript or HTML5 attributes.</p>
+                
+                    <h3>Processing the Registration:</h3>
+                    <p>Create a PHP script to handle the form submission. This script will be executed when the form is submitted.</p>
+                
+                    <p>Establish a connection to the MySQL database using appropriate credentials.</p>
+                
+                    <p>Retrieve the form data using the $_POST superglobal.</p>
+                
+                    <p>Sanitize and validate the data to prevent SQL injections and ensure the data is in the correct format.</p>
+                
+                    <p>Insert the attendee details into the attendees table, associating them with the selected event using the event_id.</p>
+                
+                    <p>Provide appropriate feedback to the user, such as displaying a success message or redirecting them to a confirmation page.</p>
+                
+                    <h3>Event Listing and Attendance:</h3>
+                    <!-- Continue the essay by describing the event listing and attendance process -->
+                
+                    <h3>Generating Reports:</h3>
+                    <!-- Describe how reports for event registrations and attendance are generated -->
+                
+                    <p>Remember to handle security measures, such as validating user input, preventing SQL injections by using prepared statements or parameterized queries, and implementing appropriate authentication and authorization mechanisms if required.</p>
+                
+                    <h2>Project Details:</h2>
+                    <ul>
+                        <li>Name of Project: Event Registration and Attendance System</li>
+                        <li>Language Used: PHP</li>
+                        <li>Database Used: MySQL</li>
+                        <li>Design Interface: Bootstrap JavaScript, HTML, Ajax, jQuery</li>
+                        <li>Browser Compatibility: Opera, Mozilla, Google Chrome, IE8</li>
+                        <li>Software: WAMPP, XAMPP, LAMP, MAMP</li>
+                    </ul>
+                
+                    <p>This <span style="color: #ff7f50;">Event Registration and Attendance System</span> is a powerful solution for organizations seeking to streamline their event management processes. It leverages modern technologies and user-friendly interfaces to simplify event registration and attendance tracking.</p>
+
+
+            <br><p>                              </p>
+                <p>
+                   <b> Visit my GitHub repository</b>
+                </p>
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="https://github.com/your-username" class="list-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo"></h2>
+                </a>
+                <a href="http://janudakk.byethost8.com/" class="logo">
+                    <img src="./assets/images/featured/o.png" alt="Logo"width="90" height="100" alt="logo">
+             
+                  </a>
+                <p class="company-description">
+                    <ul class="list social-media">
+                        <li class="list-item">
+                            <a href="https://www.instagram.com/januda_j_kodithuwakku_/?hl=en" target="_blank" class="list-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <!-- Twitter -->
+                        <li class="list-item">
+                            <a href="https://twitter.com/janandithjanuda" target="_blank" class="list-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <!-- Facebook -->
+                        <li class="list-item">
+                            <a href="https://www.facebook.com/profile.php?id=100064500500050&hl=en" target="_blank" class="list-link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <!-- Pinterest -->
+                        <li class="list-item">
+                            <a href="https://www.pinterest.com/januda kodithuwakku" target="_blank" class="list-link">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                
+                        <li class="list-item">
+                            <a href="https://www.linkedin.com/in/januda-kodithuwakku" target="_blank" class="list-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        
+                        <li class="list-item">
+                            <a href="https://www.youtube.com/channel/UCCLLLWeMoIWX-2-inWySuPQ" target="_blank" class="list-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        
+                        <li class="list-item">
+                            <a href="https://github.com/kjanuda" target="_blank" class="list-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        
+                        <li class="list-item">
+                            <a href="https://twitter.com/januda kodithuwakku" target="_blank" class="list-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        
+                        <li class="list-item">
+                            <a href="https://stackoverflow.com/users/21047328/januda-kodithuwakku?tab=profile" target="_blank" class="list-link">
+                                <i class="fab fa-stack-overflow"></i>
+                            </a>
+                        </li>
+                        
+                        <li class="list-item">
+                            <a href="https://api.whatsapp.com/send?phone=0773007426" target="_blank" class="list-link">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                <span class="copyright-notice">Copyright © Januda 2023. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title"></h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title"></h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title"></h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
